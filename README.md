@@ -1,4 +1,4 @@
 # police-notifications
 
-Police notifications for FiveM
+Toast notifications
 https://screech115.github.io/police-notifications/
