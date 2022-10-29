@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Police Notify</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="toast">
+      <div class="toast-content">
+        <ion-icon name="person-circle-outline" class="check"></ion-icon>
+
+        <div class="message">
+          <span class="text text-1">SAN ANDRES STATE POLICE</span>
+          <span class="text text-2">101 | White Street | 19:32</span>
+          <div class="hr"><hr /></div>
+          <div class="buttons">
+            <span class="text text-3"><b>[G]</b> Reaguj</span>
+            <span class="text text-4"><b>[H]</b> GPS</span>
+          </div>
+        </div>
+
+        <!-- <ion-icon name="lock-closed-outline" class="close"></ion-icon> -->
+
+        <div class="progress"></div>
+      </div>
+    </div>
+    <button>Testowe powiadomienie</button>
+  </body>
+</html>
