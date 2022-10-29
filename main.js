@@ -13,13 +13,5 @@ button.addEventListener("click", () => {
 
   setTimeout(() => {
     progress.classList.remove("active");
-  }, 300);
-});
-
-close.addEventListener("click", () => {
-  toast.classList.remove("active");
-
-  setTimeout(() => {
-    progress.classList.remove("active");
-  }, 300);
+  }, 5300);
 });
